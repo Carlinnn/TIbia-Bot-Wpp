@@ -13,7 +13,7 @@
   </p>
 </p>
 
-![Contributors](https://img.shields.io/github/contributors/Nata4n/whatsapp-bot?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/Nata4n/whatsapp-bot?style=social) ![Issues](https://img.shields.io/github/issues/Nata4n/whatsapp-bot) 
+![Contributors](https://img.shields.io/github/contributors/Nata4n/whatsapp-bot?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/Nata4n/whatsapp-bot?style=social) ![Issues](https://img.shields.io/github/issues/Nata4n/whatsapp-bot)
 
 ## Table Of Contents
 
@@ -39,17 +39,19 @@ If you want an easy start on getting commands on your [WhatsApp](https://web.wha
 
 Here's why:
 
- * **Dynamic Command Handler**:
-    * The command handler, you don't need to indulge in main bot files to create your very own command!
-    * You can simply make command groups (categorized as folders) in the [commands](https://github.com/Nata4n/whatsapp-bot/tree/main/src/commands) folder.
+- **Dynamic Command Handler**:
 
-* **Dynamic Event Handler**:
-   * All events goes inside the [controllers](https://github.com/Nata4n/whatsapp-bot/tree/main/src/controllers) folder. You don't need to use `socks.ev.on()` in the main file to handle events.
-   * Using simple skeleton code for events, you can make any amount of events in the events folder using the event handler.
+  - The command handler, you don't need to indulge in main bot files to create your very own command!
+  - You can simply make command groups (categorized as folders) in the [commands](https://github.com/Nata4n/whatsapp-bot/tree/main/src/commands) folder.
+
+- **Dynamic Event Handler**:
+  - All events goes inside the [controllers](https://github.com/Nata4n/whatsapp-bot/tree/main/src/controllers) folder. You don't need to use `socks.ev.on()` in the main file to handle events.
+  - Using simple skeleton code for events, you can make any amount of events in the events folder using the event handler.
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
 
 ## Docker
+
 To create a container and run [Whatsapp Bot](https://github.com/Nata4n/whatsapp-bot). You will need to have docker installed on your machine.
 
 Run docker by using:
@@ -59,6 +61,7 @@ docker-composer up --build
 ```
 
 ## Deploy to Heroku
+
 You can deploy the bot to heroku by yourself using the button below:
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Nata4n/whatsapp-bot/tree/main)
@@ -74,15 +77,16 @@ GNU/Linux Legacy: you can deploy in minimal time without any prior knowledge usi
 To run the bot on your device manually, you can use the following commands
 
 ### Prerequisites
+
 [WhatsApp Account](https://whatsapp.com/download): If you don't have one, you can sign up for free
 
-* npm
+- npm
 
 ```sh
 npm install npm@latest -g
 ```
 
-* yarn
+- yarn
 
 ```sh
 npm install yarn -g
@@ -103,6 +107,7 @@ yarn install
 ```
 
 ## Usage
+
 Before running the below command, make sure you're in the project directory that you've just cloned!
 
 1. Run the WhatsApp Bot
@@ -110,6 +115,7 @@ Before running the below command, make sure you're in the project directory that
 ```sh
 yarn dev
 ```
+
 You will see a QR Code printed on your terminal, scan it with WhatsApp
 
 _For more examples, please refer to the [Documentation](https://adiwajshing.github.io/Baileys/)_
@@ -121,16 +127,17 @@ See the [open issues](https://github.com/Nata4n/whatsapp-bot/issues) for a list 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Nata4n/whatsapp-bot/issues/new) to discuss it, or directly create a pull request after you edit the *code* with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Create individual PR for each suggestion.
+
+- If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Nata4n/whatsapp-bot/issues/new) to discuss it, or directly create a pull request after you edit the _code_ with necessary changes.
+- Please make sure you check your spelling and grammar.
+- Create individual PR for each suggestion.
 
 ### Creating A Pull Request
 
 1. Fork the Project
 2. Create your Feature Branch
 3. Commit your Changes
-4. Push to the Branch 
+4. Push to the Branch
 5. Open a Pull Request
 
 ## License
@@ -140,10 +147,12 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Nata4n/whats
 ## Authors
 
 **Natan Rodrigues** - Cyber Security student - [@Nata4n](https://github.com/Nata4n)
+**Carlos Barros** - Programming Apprentice - [@Carlinnn](https://github.com/Carlinnn)
 
 ## Acknowledgements
 
-* [Mr Diniz](https://github.com/mrdiniz88)
-* [Introdução-de-docker-para-pentesters](https://harddisk.com.br/p/pt-br-introdu%C3%A7%C3%A3o-de-docker-para-pentesters/)
+- [Mr Diniz](https://github.com/mrdiniz88)
+- [Ahosall](https://github.com/ahosall)
+- [Introdução-de-docker-para-pentesters](https://harddisk.com.br/p/pt-br-introdu%C3%A7%C3%A3o-de-docker-para-pentesters/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
