@@ -152,7 +152,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Nata4n/whats
 ## Acknowledgements
 
 - [Mr Diniz](https://github.com/mrdiniz88)
-- [Ahosall](https://github.com/ahosall)
+- [Ahosall](https://github.com/ahosall) --> Thanks for helping with the java script questions, uncle carlin sends you a hug.
 - [Introdução-de-docker-para-pentesters](https://harddisk.com.br/p/pt-br-introdu%C3%A7%C3%A3o-de-docker-para-pentesters/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
